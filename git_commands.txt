@@ -1,4 +1,6 @@
 
+als je vastzit: shift + zz (miss eerst enter) 
+
 verify options: git config user.name
 
 git add . (or <file/dir> in stead of .)
@@ -13,4 +15,6 @@ git diff --stages: shows the changes between HEAD (latest commit on current bran
 
 git diff HEAD: shows the dletas between HEAD and working directory
 
-=== So there is a working directory, repository, and staging area(in between de vorige twee) 
+=== So there is a working directory, repository, and staging area(in between de vorige twee)  ===
+
+git checkout 
