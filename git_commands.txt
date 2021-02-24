@@ -1,0 +1,10 @@
+
+verify options: git config user.name
+
+git add . (or <file/dir> in stead of .)
+
+git commit -m "Initial commit" 
+
+git status 
+
+git diff: shows the difference between staging and working directory 

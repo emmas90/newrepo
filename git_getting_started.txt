@@ -1,0 +1,43 @@
+
+== Step 1: create a local git repo ==
+
+command: mkdir myproject
+
+-- initialize a git repo -- (zo connect je git met de repo)
+command: git init
+
+== Step 2: Add a new file to the repo ==
+
+command: touch newfile.txt (met touch maak je een nieuwe file)
+
+-- check tussendoor de status --
+command: git status (dan zie je dat die file nog niet getracked wordt)
+
+== Step 3: Add a file to the staging environment ==
+
+command: git add . (met de punt voeg je alles toe, je kunt ook een specifiek bestand toevoegen)
+command: git status (dan zie je dat er changes to be commited zijn)
+
+== Step 4: Create a commit ==
+
+command: git commit -m "Your message about the commit" 
+
+== Step 5: Create a new branch ==
+
+command: git checkout -b [new branchname] (git moved je dan automatisch naar die nieuwe branch)
+
+-- confirm that branch is created --
+command: git branch (die met het sterretje is waar je op dat moment op zit) 
+
+== Step 6: Create a new repo on GitHub == (niet verplicht, je kunt ook gewoon locally werken)
+dit gaat via github.com, rechtsboven het plusje, nieuw repo, 
+en dan kiezen voor "... or push an existing repo from the command line" want we hebben de map
+locally al gemaakt
+
+== Step 7: Push a branch to GitHub ==
+
+
+
+
+
+
