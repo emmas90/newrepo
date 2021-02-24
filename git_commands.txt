@@ -8,3 +8,9 @@ git commit -m "Initial commit"
 git status 
 
 git diff: shows the difference between staging and working directory 
+
+git diff --stages: shows the changes between HEAD (latest commit on current branch) and staging directory
+
+git diff HEAD: shows the dletas between HEAD and working directory
+
+=== So there is a working directory, repository, and staging area(in between de vorige twee) 
